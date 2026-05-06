@@ -81,13 +81,13 @@ jobs:
       - uses: actions/download-artifact@v5
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: ./rom-name-finder/
+          path: ./
       - uses: actions/download-artifact@v5
         with:
           name: db
-          path: ./rom-name-finder/db
-      - uses: actions/upload-pages-artifact@v4
+          path: ./db
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: ./
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         id: deployment
