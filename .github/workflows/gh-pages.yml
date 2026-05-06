@@ -47,7 +47,7 @@ jobs:
       - uses: actions/upload-artifact@v5
         with:
           name: db
-          path: ./${{ env.FE_WDIR }}/${{ env.ARTIFACT_NAME }}/db
+          path: ${{ env.FE_WDIR }}/${{ env.ARTIFACT_NAME }}/db
 
   build-app:
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
       - uses: actions/upload-artifact@v5
         with:
           name: ${{ env.ARTIFACT_NAME }}
-          path: ./${{ env.FE_WDIR }}/${{ env.ARTIFACT_NAME }}
+          path: ${{ env.FE_WDIR }}/${{ env.ARTIFACT_NAME }}
 
   deploy:
     environment:
