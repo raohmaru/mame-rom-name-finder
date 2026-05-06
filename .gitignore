@@ -1,0 +1,5 @@
+node_modules
+dist
+coverage
+frontend/public/db/*.db
+frontend/public/wasm/
