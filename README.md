@@ -4,7 +4,7 @@
 
 A web application for searching MAME ROM names in local SQLite databases using SQL.js as a web worker. Designed for retro gaming enthusiasts to quickly find MAME ROM names in their collections.
 
-https://raohmaru.github.io/romtools/rom-name-finder/
+https://raohmaru.github.io/mame-rom-name-finder/
 
 ## Project Overview
 
@@ -17,7 +17,7 @@ https://raohmaru.github.io/romtools/rom-name-finder/
 <summary>Click here to expand the project structure.</summary>
 
 ```
-rom-name-finder/
+/
 ├── frontend/              # React frontend application
 │   ├── src/               # Source code
 │   │   ├── components/    # React components (UI + features)
@@ -53,7 +53,7 @@ rom-name-finder/
 
 ### Prerequisites
 
-- Node.js (v22 or later)
+- Node.js (v24 or later)
 - npm or yarn package manager
 
 ### Setup Instructions
